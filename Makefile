@@ -1,0 +1,4 @@
+build:
+	podman run --rm  -p4000:4000  --volume="${PWD}:/srv/jekyll"   -it jekyll/jekyll:${JEKYLL_VERSION}   jekyll build
+serve:
+	podman run --rm  -p4000:4000  --volume="${PWD}:/srv/jekyll"   -it jekyll/jekyll:${JEKYLL_VERSION}   jekyll serve
