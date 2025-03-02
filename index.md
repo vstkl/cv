@@ -7,21 +7,21 @@ title: Stoklasa
 <style>
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,#AI { margin:0;padding:0;border:0;font-size:90%;font:inherit;vertical-align:baseline; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
-ol,ul { list-style-type: square; }
+ol,ul { list-style-type: '\25ab\ '; }
 blockquote,q { quotes:none; }
 blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
 table { border-collapse:collapse;border-spacing:0; }
-body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: #f5f0c7; }
+body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: white; }
 p { position:relative;left:25%;width:75%; text-align:justify; }
 pcode { position:absolute;text-align:right;right:-20%; }
-li ul { position:relative;left:0;width:75%;margin-top: -2em; }
-ul { padding-left: 1em; position:relative;left:25%;width:75%;margin-top:0.2em;   border-left: 1px solid black ; margin-bottom: 0.5em; margin-left: 0.3em; }
-li { padding-right: 1em; margin-left: 0.7em; padding-left:1em;text-indent: -0.7em;  text-align:justify; margin-right: 0.7em; margin-bottom: 0.2em; }
+li ul { position:relative;left:0;width:75%;margin-top: -2em; ; }
+ul { padding-left: 1em; position:relative;left:25%;width:75%;margin-top:0.2em;   border-left: 1px solid black ; padding-bottom: 0;margin-bottom: 1em; margin-left: 0.3em; }
+li { padding-right: 1em; margin-left: 0.7em; padding-left:1em;text-indent: -1em;  text-align:justify; margin-right: 0.7em; margin-bottom: 0.2em; }
 h1,h2,h3,h4 { font-weight:500;width:80%; }
 h1 { text-align:left;font-size:3em;line-height:1em;position:relative;margin-left:25%; text-decoration-line:underline; max-width: 50vw; }
 h1+p { font-style:italic;font-size:110%; }
-h2 { font-size:1.5em;color:#bc412b;margin-top:0.5em;position:relative;text-align:right;font-variant:small-caps;width:20%; margin-bottom: -0.9em; margin-top: 0.5em; }
-h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; margin-top: 0;}
+h2 { font-size:1.5em;color:#bc412b;margin-top:1em;position:relative;text-align:right;font-variant:small-caps;width:20%; margin-bottom: -0.9em; padding-top: 0.5em;  }
+h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; margin-top: -2em;}
 a { color:inherit; }
 a:hover { color:#39f }
 #webaddress { margin-top:1em;position:relative;margin-left:25%;color:#bc412b;}
@@ -42,7 +42,7 @@ strong { font-weight:bold;  }
 | <a href="https://github.com/vstkl">github</a>
 </div>
 
-## Summary
+## summary
 
 Passionate and detail-oriented Network Engineer with a strong background in IT networks,
 cybersecurity, and automation. Experienced in designing, configuring, and troubleshooting
@@ -52,7 +52,6 @@ with hands-on experience in Windows/Linux environments, virtualization, and pene
 testing. Enthusiastic about continuous learning and professional development.
 
 ## skills
-
   - Design and configuration of IT networks 
   - Configuration & troubleshooting of network elements: switches, firewalls, routers
   - Cybersecurity & Penetration Testing: Vulnerability scanning, network hardening, IDS/IPS
@@ -61,7 +60,7 @@ testing. Enthusiastic about continuous learning and professional development.
   - Windows/Linux Administration: Active Directory, DNS, Server Management
   - Scripting & Automation: Python, Bash, PowerShell
 
-## Experience
+## experience
 
 ### Freelance Work
 
@@ -135,13 +134,13 @@ testing. Enthusiastic about continuous learning and professional development.
 
 JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTest, TensorFlow, PyTorch, panda3d, pandas, SQL Oracle, MSSQL, sqlite, PL/SQL, C/C++, FreeRTOS, C#, .NET, Mono, VisualBasic, Entity, NHibernate, BurpSuite, nmap, PowerShell, Wireshark, amass, tmux, nginx, make/cmake, legba, Nikto, ZAProxy, Metsaploit, SMB, SOAP, REST, Ollama, XML, Zabbix, QEMU, KVM, Hyper-V, ProxmoxVE, Docker, Vagrant, Virtualbox, FreeRTOS, vhdl, fpga, assembly, nasm, gdb, radare2, UiPath, BluePrism, git, AWS, GCP, Jenkins, bash, esp32, Jekyll, Markdown
 
-## Languages
+## languages
 
 **Fluent**: English, Czech 
 
 **Learning**: Russian, German, Mandarin
 
-## Education
+## education
 
 
 ### FIT ČVUT, Prague
@@ -166,7 +165,7 @@ JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTes
 - Passionate about network security, homelabs, and IT automation.
 - Active participant in Hack The Box and cybersecurity research.
 - Enthusiast of open-source solutions and DevOps practices.
-- Participated in several hackathons - delivering Proof of Concept solution to a problem presented
+- Participated in several hackathons - delivering PoC solution to a problem presented
 
 ## free_time
 
