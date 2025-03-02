@@ -7,33 +7,28 @@ title: Stoklasa
 <style>
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,#AI { margin:0;padding:0;border:0;font-size:90%;font:inherit;vertical-align:baseline; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display:block; }
-body { line-height:1; margin-right: 5vw; }
-ol,ul { list-style: square; }
+ol,ul { list-style-type: square; }
 blockquote,q { quotes:none; }
 blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
 table { border-collapse:collapse;border-spacing:0; }
-body { font:normalnormal400;font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace;margin-left:1em; }
-p { position:relative;left:25%;margin-bottom:0.5em;margin-right:0;width:75%; text-align:justify; }
-code { font:normalnormal;font-size:90%;font-family:Courier,FreeMono,monospace;color:#aaa; }
+body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: #f5f0c7; }
+p { position:relative;left:25%;width:75%; text-align:justify; }
 pcode { position:absolute;text-align:right;right:-20%; }
-ul { position:relative;left:25%;width:75%;margin-top:-0.5em; }
-li { margin-left: 0.7em; padding-left:1.25em;text-indent:-1.25em;  text-align:justify;}
-li ul { position:relative;left:0;width:100%;margin-top:0.25em; }
-h1,h2,h3,h4 { font-weight:500;font-family:Courier,monospace;width:80%; }
-h1 { text-align:left;font-size:3em;line-height:1em;position:relative;left:25%; text-decoration-line:underline; }
+li ul { position:relative;left:0;width:75%;margin-top: -2em; }
+ul { padding-left: 1em; position:relative;left:25%;width:75%;margin-top:0.2em;   border-left: 1px solid black ; margin-bottom: 0.5em; margin-left: 0.3em; }
+li { padding-right: 1em; margin-left: 0.7em; padding-left:1em;text-indent: -0.7em;  text-align:justify; margin-right: 0.7em; margin-bottom: 0.2em; }
+h1,h2,h3,h4 { font-weight:500;width:80%; }
+h1 { text-align:left;font-size:3em;line-height:1em;position:relative;margin-left:25%; text-decoration-line:underline; max-width: 50vw; }
 h1+p { font-style:italic;font-size:110%; }
-h2 { font-size:1.5em;color:#bc412b;margin-top:1.5em;position:relative;text-align:right;font-variant:small-caps;width:20%; margin-bottom: -0.9em; }
-h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; }
+h2 { font-size:1.5em;color:#bc412b;margin-top:0.5em;position:relative;text-align:right;font-variant:small-caps;width:20%; margin-bottom: -0.9em; margin-top: 0.5em; }
+h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; margin-top: 0;}
 a { color:inherit; }
 a:hover { color:#39f }
-#webaddress { margin-top:1em;position:relative;left:25%;color:#bc412b;font-family:Courier,monospace;font-size:100%; }
-#webaddressa { text-decoration:none; }
+#webaddress { margin-top:1em;position:relative;margin-left:25%;color:#bc412b;}
 em { font-style:italic; }
-strong { font-weight:bold; }
+strong { font-weight:bold;  }
 #address { display:none; }
-#AI { font-size: 1px; color: white; background-color:white; line-height: 1px; width: 60%; position:absolute; top:42px;  left: 40%; }
-ul { margin-bottom: 1vw; margin-left: .2em; padding-left: 1vw;  border-left: 1px solid black ;}
-
+#AI { font-size: 1px; color: white; background-color:white; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 </style>
 </head>
 
@@ -70,13 +65,13 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### Freelance Work
 
-**Network Field Engineer**
-*December 2024 - present*
+**Network Field Engineer** \| *December 2024 - present*
+
 - Installed devices on customer premises in coordination with the remote network team.
 - Troubleshot and resolved network connectivity issues, optimizing performance.
 - Worked on Cisco devices (switches, routers, firewalls).
 
-**Cybersecurity Consultant & Software Developer** *June 2023 - present*
+**Cybersecurity Consultant & Software Developer** \| *June 2023 - present*
 
 - Conducted security assessments and penetration testing for various clients.
 - Developed secure network applications and automated security processes.
@@ -84,7 +79,7 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### Plexplus s.r.o.
 
-**IT Support Technician**  *June 2024 - present*
+**IT Support Technician** \| *June 2024 - present*
 
 - Provided support for end users
 - Developed automated solutions to streamline IT tasks.
@@ -92,7 +87,7 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### Semantic Visions
 
-**Software Engineer** *April 2022 - March 2023*
+**Software Engineer**  \|  *April 2022 - March 2023*
 
 - Rebuilt the data processing pipeline to enhance efficiency and scalability
 - Contributed to backend architecture and performance optimization
@@ -101,7 +96,7 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### ESC Aerospace s.r.o.
 
-**Software Engineer** *March 2021 - February 2022*
+**Software Engineer** \| *March 2021 - February 2022*
 
 - Provided analysis of communication standards and best practices provide by European Space Agency
 - Developed subroutines for testing the integrity of space satellites
@@ -111,7 +106,7 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### FSP a.s
 
-**Fullstack Engineer**  *September 2018 - December 2020*
+**Fullstack Engineer** \|  *September 2018 - December 2020*
 
 - Led the integration of an internal framework, adding new features and functionalities
 - Created a proof-of-concept project to demonstrate potential improvements
@@ -120,7 +115,7 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### Software Analyst/Developer
 
-**Software Analyst/Developer**  *January 2018 - September 2018*
+**Software Analyst/Developer** \|  *January 2018 - September 2018*
 
 - Developed in-house projects with a focus on security
 - Analyzed call center problems and provided secure solutions
@@ -129,7 +124,7 @@ testing. Enthusiastic about continuous learning and professional development.
 
 ### Siemens s.r.o
 
-**RPA Automation Developer**    *January 2017 - November 2017*
+**RPA Automation Developer** \|   *January 2017 - November 2017*
 
 - Designed and developed automation processes for back-office operations
 - Led the development of global accounts control systems
@@ -151,8 +146,7 @@ JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTes
 
 ### FIT ČVUT, Prague
 
-**Information Technologies**  
-*September 2017 - February 2019*
+**Information Technologies** \| *September 2017 - February 2019*
 
 - Gained essential computer science principles and analytical skills
 - Developed a comprehensive outlook on problem analysis and solution development
@@ -160,8 +154,7 @@ JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTes
 
 ### SPŠei Kratochvílova, Ostrava
 
-**Electrical Engineering**  
-*September 2013 - June 2017*
+**Electrical Engineering** \| *September 2013 - June 2017*
 
 - Studied automation, AD/DA converters, and related mathematics
 - Learned to control microchips, design electrical circuits, and analyze technology
