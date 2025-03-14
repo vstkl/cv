@@ -69,6 +69,7 @@ strong { font-weight:bold;  }
     <!-- Contact info will be added here dynamically -->
 </div>
 
+</br>
 
 ## summary
 
