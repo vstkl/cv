@@ -11,7 +11,7 @@ ol,ul { list-style-type: '\25ab\ '; }
 blockquote,q { quotes:none; }
 blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
 table { border-collapse:collapse;border-spacing:0; }
-body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: white; }
+body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: #FFFFDD; }
 p { position:relative;left:25%;width:75%; text-align:justify; }
 pcode { position:absolute;text-align:right;right:-20%; }
 li ul { position:relative;left:0;width:75%;margin-top: -2em; ; }
@@ -28,7 +28,7 @@ a:hover { color:#39f }
 em { font-style:italic; }
 strong { font-weight:bold;  }
 #address { display:none; }
-#AI { font-size: 1px; color: white; background-color:white; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
+#AI { font-size: 1px; color: #FFFFDD; background-color:#FFFFDD; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 </style>
 </head>
 
