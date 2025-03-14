@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stoklasa
+title: Vojta Stoklasa
 ---
 
 <head>
