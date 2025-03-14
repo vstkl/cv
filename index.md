@@ -20,7 +20,7 @@ li { padding-right: 1em; margin-left: 0.7em; padding-left:1em;text-indent: -1em;
 h1,h2,h3,h4 { font-weight:500;width:80%; }
 h1 { text-align:left;font-size:3em;line-height:1em;position:relative;margin-left:25%; text-decoration-line:underline; max-width: 50vw; }
 h1+p { font-style:italic;font-size:110%; }
-h2 { font-size:1.5em;color:#bc412b;margin-top:1em;position:relative;text-align:right;font-variant:small-caps;width:20%; margin-bottom: -0.9em; padding-top: 0.5em;  }
+h2 { font-size:1.7em;color:#bc412b;margin-top:0;position:relative;text-align:right;font-variant:small-caps;width:20%; margin-bottom: -0.8em; padding-top: 1em;   }
 h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; margin-top: -2em;}
 a { color:inherit; }
 a:hover { color:#39f }
