@@ -50,8 +50,8 @@ window.onload = function() {
 # Vojta Stoklasa
   <div id="cf-chl-widget"></div>
 <div id="webaddress">
-<a href="tel:+420704212826">+420 704 212 826</a>
-| <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a>
+<a href="tel:+420704212826">phone</a>
+| <a href="mailto:jobs@vstkl.xyz">e-mail</a>
 | <a href="https://github.com/vstkl">github</a>
 | <a href="https://vstkl.xyz">blog</a>
 </div>
