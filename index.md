@@ -11,7 +11,8 @@ ol,ul { list-style-type: '\25ab\ '; }
 blockquote,q { quotes:none; }
 blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
 table { border-collapse:collapse;border-spacing:0; }
-body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: #FFFFDD; }
+body { font-size:100%;line-height:1.2em;font-family:Courier,FreeMono,monospace; margin-right: 2vw; background-color: #FFFFDD; }thinker with hands-on experience in Windows/Linux environments, virtualization, and penetration testing. Enthusiastic about continuous learning and professional development.
+
 p { position:relative;left:25%;width:75%; text-align:justify; }
 pcode { position:absolute;text-align:right;right:-20%; }
 li ul { position:relative;left:0;width:75%;margin-top: -2em; ; }
@@ -53,13 +54,14 @@ window.onload = function() {
     class="cf-turnstile"
     data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
     data-size="compact"
-  ></div>
+  >
 
 <div id="webaddress">
 <a href="tel:+420704212826">phone</a>
 | <a href="mailto:jobs@vstkl.xyz">e-mail</a>
 | <a href="https://github.com/vstkl">github</a>
 | <a href="https://vstkl.xyz">blog</a>
+</div> 
 </div>
 </div>
 
