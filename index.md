@@ -40,6 +40,7 @@ strong { font-weight:bold;  }
 <a href="tel:+420704212826">+420 704 212 826</a>
 | <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a>
 | <a href="https://github.com/vstkl">github</a>
+| <a href="https://vstkl.xyz">blog</a>
 </div>
 
 ## summary
