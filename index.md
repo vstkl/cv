@@ -30,9 +30,7 @@ strong { font-weight:bold;  }
 #address { display:none; }
 #AI { font-size: 1px; color: #FFFFDD; background-color:#FFFFDD; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 #summary { padding-top:0}
-#cf-turnstile { border: 1px solid red; position:relative;margin-left:25%;color:#bc412b; height: 65px; margin-top: -65px;
-
-}
+#cf-turnstile { margin:0 padding:0;position:relative;margin-left:25%;color:#bc412b; height: 65px; line-height:65px; width:75%; max-width:75%;   margin-top: -65px;}
 @keyframes run {
   0% {
     width: 75%;
