@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Stoklasa
@@ -34,10 +35,11 @@ strong { font-weight:bold;  }
   right:0.5em;
  mix-blend-mode: multiply;
 transition: width 2s linear;
+filter: contrast(240%);
+overflow: hidden;
 }
 #webaddress { margin:0 padding:0;position:relative;margin-left:25%;color:#bc412b; height: 65px; max-height: 65px; line-height:65px; width:1px; max-width:75%; transition: width 2s linear;     overflow: hidden;
   text-overflow: clip;
-
   white-space: nowrap; 
   ; }
 </style>
@@ -77,8 +79,16 @@ transition: width 2s linear;
             <a href="https://vstkl.xyz">blog</a>
         `;
         const cft = document.getElementById('cf-turnstile');
-        cft.style.width= '300px';
+        cft.style.width= '130px';
+        cft.style["right-margin"] = '-10vw';
         contactInfo.style.width = '55%';
+setTimeout(function(){
+  cft.style.transition = 'opacity 2s linear';
+  cft.style.opacity = 0;
+}, 5000);
+setTimeout(function(){
+  cft.style.display='none';
+}, 7000);
       },
     });
   };
