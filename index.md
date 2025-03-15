@@ -24,24 +24,22 @@ h2 { font-size:1.7em;color:#bc412b;margin-top:0;position:relative;text-align:rig
 h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; margin-top: -2em;}
 a { color:inherit; }
 a:hover { color:#39f }
-#webaddress { margin:0 padding:0;position:relative;margin-left:25%;color:#bc412b; height: 65px; line-height:65px; width:75%; max-width:75%;   }
 em { font-style:italic; }
 strong { font-weight:bold;  }
 #address { display:none; }
 #AI { font-size: 1px; color: #FFFFDD; background-color:#FFFFDD; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 #summary { padding-top:0}
-#cf-turnstile { margin:0 padding:0;position:relative;margin-left:25%;color:#bc412b; height: 65px; line-height:65px; width:75%; max-width:75%;   margin-top: -65px;}
-@keyframes run {
-  0% {
-    width: 75%;
-    left: 0;
-  }
-  100% {
-    left: 75%; 
-    width: 0;
-  }
+#cf-turnstile { position:absolute;color:#bc412b; height: 65px; margin-top: -65px;
+  width: 75vw;
+  right:0.5em;
+ mix-blend-mode: multiply;
+transition: width 2s linear;
 }
+#webaddress { margin:0 padding:0;position:relative;margin-left:25%;color:#bc412b; height: 65px; max-height: 65px; line-height:65px; width:1px; max-width:75%; transition: width 2s linear;     overflow: hidden;
+  text-overflow: clip;
 
+  white-space: nowrap; 
+  ; }
 </style>
 </head>
 
@@ -55,11 +53,13 @@ strong { font-weight:bold;  }
 
 # Vojta Stoklasa
 
-<div id="webaddress"></div>
+<div id="webaddress">
+ </div>
 <div
   id="cf-turnstile"
   data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
   data-size="flexible"
+  data-theme="light"
 >
 </div>
 <script>
@@ -77,9 +77,8 @@ strong { font-weight:bold;  }
             <a href="https://vstkl.xyz">blog</a>
         `;
         const cft = document.getElementById('cf-turnstile');
-
-        cft.style.display= 'none'
-        
+        cft.style.width= '300px';
+        contactInfo.style.width = '55%';
       },
     });
   };
