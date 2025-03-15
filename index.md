@@ -60,14 +60,14 @@ strong { font-weight:bold;  }
 <div id="webaddress"></div>
 <div
   id="cf-turnstile"
-  data-sitekey="0x4AAAAAABA3W2NW4I37qqHN"
+  data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
   data-size="flexible"
 >
 </div>
 <script>
   window.onloadTurnstileCallback = function () {
     turnstile.render("#cf-turnstile", {
-      sitekey: '0x4AAAAAABA3W2NW4I37qqHN',  // Replace with your actual Turnstile site key
+      sitekey: '0x4AAAAAABAzuyCIhJIoL6cz',  // Replace with your actual Turnstile site key
       callback: function (token) {
         console.log(`Challenge Success ${token}`);
         const contactInfo = document.getElementById('webaddress');
