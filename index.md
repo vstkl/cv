@@ -47,6 +47,8 @@ strong { font-weight:bold;  }
                 `;
                 const msg = document.getElementById('turnstile-msg');
                 msg.style.display = 'none';
+                const turnstile = document.getElementById('turnstile);
+                turnstile.style.display = 'none;
             });
         }
     });
@@ -61,6 +63,7 @@ strong { font-weight:bold;  }
 
 <div style="display: block; flex-flow: row;">
   <div
+    id="turnstile"
     class="cf-turnstile"
     data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
     data-size="flexible"
