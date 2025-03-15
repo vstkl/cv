@@ -25,14 +25,13 @@ h2 { font-size:1.7em;color:#bc412b;margin-top:0;position:relative;text-align:rig
 h3 { font-size:1em;line-height:2em;position:relative;top:1.7em;text-align:right;width:20%; margin-top: -2em;}
 a { color:inherit; }
 a:hover { color:#39f }
-#webaddress { margin-top:1em;position:absolute;margin-left:25%;color:#bc412b;}
+#webaddress { margin-top:1em;position:relative;margin-left:25%;color:#bc412b;}
 em { font-style:italic; }
 strong { font-weight:bold;  }
 #address { display:none; }
 #AI { font-size: 1px; color: #FFFFDD; background-color:#FFFFDD; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         if (typeof turnstile !== 'undefined') {
