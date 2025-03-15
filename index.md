@@ -32,16 +32,7 @@ strong { font-weight:bold;  }
 #AI { font-size: 1px; color: #FFFFDD; background-color:#FFFFDD; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 </style>
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-<script>
-    window.onload = function() {
-        if (typeof turnstile !== 'undefined') {
-            turnstile.render('cf-chl-widget', {
-                sitekey: '0x4AAAAAABAzuyCIhJIoL6cz',
-                theme: 'dark'
-            });
-        }
-    };
-</script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         if (typeof turnstile !== 'undefined') {
@@ -66,6 +57,14 @@ strong { font-weight:bold;  }
 # Vojta Stoklasa
 
 <a>please fill captcha to get my info.</a>
+
+<div style="display: block; flex-flow: row;">
+  <div
+    class="cf-turnstile"
+    data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
+    data-size="flexible"
+  ></div>
+</div>
 
 <div id="webaddress" style="display: none;">
     <!-- Contact info will be added here dynamically -->
