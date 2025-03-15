@@ -38,7 +38,7 @@ strong { font-weight:bold;  }
     sitekey: "0x4AAAAAABAzuyCIhJIoL6cz",
     callback: function (token) {
       console.log(`Challenge Success ${token}`);
-      document.getElementById('webaddress').style.background-color="red";
+      document.getElementById('webaddress').style.display="block";
     },
   });
     )
