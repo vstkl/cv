@@ -33,15 +33,13 @@ strong { font-weight:bold;  }
 
 <script>
   window.onloadTurnstileCallback = function () {
-  turnstile.remove(
       turnstile.render("#webaddress", {
     sitekey: "0x4AAAAAABAzuyCIhJIoL6cz",
     callback: function (token) {
       console.log(`Challenge Success ${token}`);
-      document.getElementById('webaddress').style.display="block";
     },
+    document.getElementById('webaddress').style.display="block";
   });
-    )
 };
 </script>
 <script
