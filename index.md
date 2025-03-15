@@ -45,6 +45,8 @@ strong { font-weight:bold;  }
                     | <a href="https://github.com/vstkl">github</a>
                     | <a href="https://vstkl.xyz">blog</a>
                 `;
+                const msg = document.getElementById('turnstile-msg');
+                msg.style.display = 'none';
             });
         }
     });
@@ -55,7 +57,7 @@ strong { font-weight:bold;  }
 
 # Vojta Stoklasa
 
-<a>please fill captcha to get my info.</a>
+<a id="turnstile-msg">please fill captcha to get my info.</a>
 
 <div style="display: block; flex-flow: row;">
   <div
