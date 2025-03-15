@@ -30,21 +30,8 @@ strong { font-weight:bold;  }
 #address { display:none; }
 #AI { font-size: 1px; color: #FFFFDD; background-color:#FFFFDD; line-height: 1px; width: 50%; max-width: 50vw; position:absolute; top:42px;  left: 40%; }
 </style>
-
-<script>
-  window.onloadTurnstileCallback = function () {
-      turnstile.render("#webaddress", {
-    sitekey: "0x4AAAAAABAzuyCIhJIoL6cz",
-    callback: function (token) {
-      console.log(`Challenge Success ${token}`);
-    },
-    document.getElementById('webaddress').style.display="block";
-  });
-};
-</script>
 <script
-  src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback"
-  defer
+  src="https://challenges.cloudflare.com/turnstile/v0/api.js"
 ></script>
 </head>
 
@@ -54,9 +41,8 @@ strong { font-weight:bold;  }
 <div
   class="cf-turnstile"
   data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
-  data-callback="onloadTurnstileCallback"
 ></div>
-<div id="webaddress" style="display: none">
+<div id="webaddress" >
 <a href="tel:+420704212826">+420 704 212 826</a>
 | <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a>
 | <a href="https://github.com/vstkl">github</a>
