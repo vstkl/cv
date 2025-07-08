@@ -36,6 +36,7 @@ strong { font-weight:bold;  }
 transition: width 2s linear;
 filter: contrast(240%);
 overflow: hidden;
+               display:none;
 }
 #webaddress { margin:0 padding:0;position:relative;margin-left:25%;color:#bc412b; height: 65px; max-height: 65px; line-height:65px; width:1px; max-width:75%; transition: width 2s linear;     overflow: hidden;
   text-overflow: clip;
