@@ -116,17 +116,7 @@ setTimeout(function(){
 </script>
 ## summary
 
-I am a fullstack developer with a diverse skill set spanning automation, embedded systems, and cybersecurity. My journey in electrical engineering began at age 10 and has evolved into a career focused on agile development using Python and JavaScript. With a passion for security and a background in development and DevOps, I am keen to transition further into the cybersecurity domain. I think critically and plan for worst-case scenarios, enjoying the challenge of "breaking" things to understand how they work. I maintain a homelab for hands-on learning with tools like Proxmox, WebGoat, and Metasploitable, and actively participate in challenges on platforms like Hack The Box. I believe in the importance of good DevOps practices and fostering strong team relationships. I am passionate about continuous learning and strive to stay updated with the latest industry trends. I am also a dedicated VIM user, utilizing its efficiency across various *nix-based systems.
-
-## skills
-
-- Design and configuration of IT networks
-- Configuration & troubleshooting of network elements: switches, firewalls, routers
-- Cybersecurity & Penetration Testing: Vulnerability scanning, network hardening, IDS/IPS
-- Network Protocols: TCP/IP, VLAN, VPN, BGP, OSPF, DNS, DHCP
-- Virtualization & Cloud: Proxmox, VMware, Docker, KVM, Hyper-V
-- Windows/Linux Administration: Active Directory, DNS, Server Management
-- Scripting & Automation: Python, Bash, PowerShell
+I am a fullstack developer with a diverse skill set spanning automation, embedded systems, and cybersecurity. My journey in electrical engineering began at age 10 and has evolved into a career focused on agile development using Python and JavaScript, however . With a passion for security and a background in development and DevOps, I am keen to transition further into the cybersecurity domain. I think critically and plan for worst-case scenarios, enjoying the challenge of "breaking" things to understand how they work. I maintain a homelab for hands-on learning with tools like Proxmox, WebGoat, and Metasploitable, and actively participate in challenges on platforms like Hack The Box. I believe in the importance of good DevOps practices and fostering strong team relationships. I am passionate about continuous learning and strive to stay updated with the latest industry trends. I am also a dedicated neovim user, utilizing its efficiency across various *nix-based systems.
 
 ## experience
 
@@ -142,7 +132,7 @@ I am a fullstack developer with a diverse skill set spanning automation, embedde
 
 - Conducted security assessments and penetration testing for various clients.
 - Developed secure network applications and automated security processes.
-- Designed virtualized environments for testing security solutions.
+- Designed virtualised environments for testing security solutions.
 
 ### Plexplus s.r.o
 
@@ -211,11 +201,11 @@ JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTes
 ## additional_info
 
 - Willing to travel extensively (up to 50%).
-- Passionate about network security, homelabs, and IT automation.
+- Passionate about network security, homelabs, IT automation and hardware.
 - Active participant in Hack The Box and cybersecurity research.
 - Enthusiast of open-source solutions and DevOps practices.
 - Participated in several hackathons - delivering PoC solution to a problem presented
 
 ## free_time
 
-I play many string instruments and create my own music, sometimes using my own synthesizers. I enjoy capturing moments with analog cameras, avoiding modern technology. Reading about medicine or cybersecurity is a significant part of my leisure activities. I also maintain a homelab for hands-on learning and enjoy participating in cybersecurity challenges on platforms like Hack The Box. I also love hiking, and I'm also highly social person and I'd be delighted to join team of professionals who I can respect.
+I play many string instruments and create my own music, sometimes using my own synthesizers. I enjoy capturing moments with analog cameras, avoiding modern technology. Reading about medicine or cybersecurity is a significant part of my leisure activities. I also maintain a homelab for hands-on learning and enjoy participating in cybersecurity challenges on platforms like Hack The Box. I also love hiking, and I'm also highly social person and I'd be delighted to join team of professionals.
