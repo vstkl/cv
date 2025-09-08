@@ -91,28 +91,28 @@ setTimeout(function(){
       },
     });
   };
-      //    window.onload = function() {
-    //        if (typeof turnstile !== 'undefined') {
-    //            // Initialize Turnstile widget
-    //            turnstile.render(document.getElementById("cf-turnstile"), {
-    //                theme: "dark"             // Optional: Choose between "dark" or "light"
-    //            }).then(() => turnstile.remove("cf-turnstile"));
-    //
-    //            // Show contact info after successful verification
-    //            turnstile.on('verified', function() {
-    //                const contactInfo = document.getElementById('webaddress');
-    //                contactInfo.style.display = 'block';
-    //                contactInfo.innerHTML = `
-    //                    <a href="tel:+420704212826">+420 704 212 826</a> |
-    //                    <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a> |
-    //                    <a href="https://github.com/vstkl">github</a> |
-    //                    <a href="https://vstkl.xyz">blog</a>
-    //                `;
-    //            });
-    //        } else {
-    //            console.error('Turnstile script not loaded');
-    //        }
-    //    };
+        window.onload = function() {
+            if (typeof turnstile !== 'undefined') {
+                // Initialize Turnstile widget
+                turnstile.render(document.getElementById("cf-turnstile"), {
+                    theme: "dark"             // Optional: Choose between "dark" or "light"
+                }).then(() => turnstile.remove("cf-turnstile"));
+
+                // Show contact info after successful verification
+                turnstile.on('verified', function() {
+                    const contactInfo = document.getElementById('webaddress');
+                    contactInfo.style.display = 'block';
+                    contactInfo.innerHTML = `
+                        <a href="tel:+420704212826">+420 704 212 826</a> |
+                        <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a> |
+     //                   <a href="https://github.com/vstkl">github</a> |
+                        <a href="https://vstkl.xyz">blog</a>
+                    `;
+                });
+            } else {
+                console.error('Turnstile script not loaded');
+            }
+        };
 </script>
 ## summary
 
