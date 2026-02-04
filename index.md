@@ -120,25 +120,28 @@ Embedded and fullstack software engineer with a strong background in **C/C++, em
 
 ## experience
 
+### MSDC(Moravskoslezské Datové Centrum)
+
+**Cybersecurity Architect** \| *September 2025 - present *
+
+- Assured delivery of Security reports acquired from SOC for various customers and improved quality of the delivery process.
+- Delivered key points for strategy of SIEM implementation.
+- Developed new standards for cybersecurity auditing and advised in it's implementations.
+- Provided programming mentoring and consultantions regarding programming to teammates with different skillsets to improve the team's competency.
+
 ### Freelance Work
 
-**Network Field Engineer** \| *December 2024 - present*
+**Network Field Engineer** \| *December 2024 - July 2025*
 
 - Installed devices on customer premises in coordination with the remote network team.
 - Troubleshot and resolved network connectivity issues, optimizing performance.
 - Worked on Cisco devices (switches, routers, firewalls).
 
-**Cybersecurity Consultant & Software Developer** \| *June 2023 - present*
-
-- Conducted security assessments and penetration testing for various clients.
-- Developed secure network applications and automated security processes.
-- Designed virtualised environments for testing security solutions.
-
 ### Plexplus s.r.o
 
-**IT Support Technician** \| *June 2024 - present*
+**IT Support Technician** \| *June 2024 - July 2025*
 
-- Provided support for end users
+- Provided support for end users.
 - Developed automated solutions to streamline IT tasks.
 - Diagnosed and resolved network issues efficiently.
 
