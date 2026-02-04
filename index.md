@@ -116,7 +116,7 @@ setTimeout(function(){
 </script>
 ## summary
 
-Embedded and fullstack software engineer with a strong background in **C/C++, embedded systems, and industrial automation**. I combine experience in **object-oriented software design, scalable architectures, and real-time systems** with hands-on work in **network protocols, DevOps, and cybersecurity**. My career spans industrial automation, aerospace, and IT, giving me a unique ability to design robust, reusable software across multiple domains. I am passionate about building reliable embedded solutions, staying up to date with new trends in **Industry 4.0**, and collaborating in international teams.
+Cybersecurity enthusiast, formed from previous experience in embedded and fullstack software engineer with a strong background in **C/C++, embedded systems, and industrial automation**. I combine experience in **object-oriented software design, scalable architectures, and real-time systems** with hands-on work in **network protocols, DevOps, and cybersecurity**. My career spans industrial automation, aerospace, and IT, giving me a unique ability to design robust, reusable software across multiple domains. I am passionate about building reliable embedded solutions, staying up to date with new trends in **Industry 4.0**, and collaborating in international teams.
 
 ## experience
 
@@ -149,29 +149,29 @@ Embedded and fullstack software engineer with a strong background in **C/C++, em
 
 **Software Engineer**  \|  *April 2022 - March 2023*
 
-- Rebuilt the data processing pipeline to enhance efficiency and scalability
-- Contributed to backend architecture and performance optimization
-- Utilized front-end skills to fix issues in API testing, involving some React development
-- Supervised a junior teammate, fostering their growth and development
+- Rebuilt the data processing pipeline to enhance efficiency and scalability.
+- Contributed to backend architecture and performance optimization.
+- Utilized front-end skills to fix issues in API testing, involving some React development.
+- Supervised a junior teammate, fostering their growth and development.
 
 ### ESC Aerospace s.r.o
 
 **Software Engineer** \| *March 2021 - February 2022*
 
-- Provided analysis of communication standards and best practices provide by European Space Agency
-- Developed subroutines for testing the integrity of space satellites
-- Contributed to the development of BCI robotic arms for exoskeletons, focusing on data processing and visualization
-- Managed APIs and automated testing processes
-- Led requirement gathering and task delegation within the team
+- Provided analysis of communication standards and best practices provide by European Space Agency.
+- Developed subroutines for testing the integrity of space satellites.
+- Contributed to the development of BCI robotic arms for exoskeletons, focusing on data processing and visualization.
+- Managed APIs and automated testing processes.
+- Led requirement gathering and task delegation within the team.
 
 ### FSP a.s
 
 **Fullstack Engineer** \|  *September 2018 - December 2020*
 
-- Led the integration of an internal framework, adding new features and functionalities
-- Created a proof-of-concept project to demonstrate potential improvements
-- Assisted with the security aspects of backend models and APIs
-- Developed secure life insurance systems designed for long-term use
+- Led the integration of an internal framework, adding new features and functionalities.
+- Created a proof-of-concept project to demonstrate potential improvements.
+- Assisted with the security aspects of backend models and APIs.
+- Developed secure life insurance systems designed for long-term use.
 
 ## tools
 
