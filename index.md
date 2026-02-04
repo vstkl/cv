@@ -181,7 +181,7 @@ JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTes
 
 **Fluent**: English, Czech
 
-**Learning**: Russian, German, Mandarin
+**Learning**: Russian, German, Chinese, Italian
 
 ## education
 
