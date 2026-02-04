@@ -120,9 +120,11 @@ Embedded and fullstack software engineer with a strong background in **C/C++, em
 
 ## experience
 
-### MSDC(Moravskoslezské Datové Centrum)
+### MSDC
 
-**Cybersecurity Architect** \| *September 2025 - present *
+*(Moravskoslezské Datové Centrum)*
+
+**Cybersecurity Architect** \| *September 2025 - present*
 
 - Assured delivery of Security reports acquired from SOC for various customers and improved quality of the delivery process.
 - Delivered key points for strategy of SIEM implementation.
