@@ -120,9 +120,7 @@ Embedded and fullstack software engineer with a strong background in **C/C++, em
 
 ## experience
 
-### MSDC
-
-*(Moravskoslezské Datové Centrum)*
+### MSDC \ *(Moravskoslezské Datové Centrum)*
 
 **Cybersecurity Architect** \| *September 2025 - present*
 
