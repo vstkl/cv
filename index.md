@@ -114,8 +114,6 @@ setTimeout(function(){
 </script>
 ## summary
 
-test
-
 Cybersecurity enthusiast, formed from previous experience in embedded and fullstack software engineer with a strong background in **C/C++, embedded systems, and industrial automation**. I combine experience in **object-oriented software design, scalable architectures, and real-time systems** with hands-on work in **network protocols, DevOps, and cybersecurity**. My career spans industrial automation, aerospace, and IT, giving me a unique ability to design robust, reusable software across multiple domains. I am passionate about building reliable embedded solutions, staying up to date with new trends in **Industry 4.0**, and collaborating in international teams.
 
 ## experience
