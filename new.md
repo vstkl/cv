@@ -112,49 +112,65 @@ setTimeout(function(){
     //        }
     //    };
 </script>
+
 ## summary
 
-Senior Python Engineer with 6+ years of commercial experience in backend development and data-driven systems. Strong background in designing and delivering **production-grade applications**, with focus on scalability, clean architecture, and reliability.  Experienced in mentoring developers, improving SDLC processes, conducting code reviews, and collaborating with stakeholders to transform business requirements into technical solutions.  Comfortable combining **technical leadership with hands-on Python development** (FastAPI, Flask, ML tooling, cloud environments).
+Cybersecurity enthusiast, formed from previous experience in embedded and fullstack software engineer with a strong background in **C/C++, embedded systems, and industrial automation**. I combine experience in **object-oriented software design, scalable architectures, and real-time systems** with hands-on work in **network protocols, DevOps, and cybersecurity**. My career spans industrial automation, aerospace, and IT, giving me a unique ability to design robust, reusable software across multiple domains. I am passionate about building reliable embedded solutions, staying up to date with new trends in **Industry 4.0**, and collaborating in international teams.
 
 ## experience
 
 ### MSDC p.o
 
-**Cybersecurity Architect / Technical Lead** \| *September 2025 - present*
+**Cybersecurity Architect** \| *September 2025 - present*
 
-- Leading technical initiatives and mentoring colleagues across multiple projects.
-- Improving delivery quality, internal processes, and documentation standards.
-- Contributing to strategic planning of SIEM and automation solutions.
-- Supporting incident management processes and SLA reliability.
-- Promoting best practices in testing, version control and structured development workflows.
+- Assured delivery of Security reports acquired from SOC for various customers and improved quality of the delivery process.
+- Delivered key points for strategy of SIEM implementation.
+- Developed new standards for cybersecurity auditing and advised in it's implementations.
+- Provided programming mentoring and consultantions regarding programming to teammates with different skillsets to improve the team's competency.
+
+### Freelance Work
+
+**Network Field Engineer** \| *December 2024 - July 2025*
+
+- Installed devices on customer premises in coordination with the remote network team.
+- Troubleshot and resolved network connectivity issues, optimizing performance.
+- Worked on Cisco devices (switches, routers, firewalls).
+
+### Plexplus s.r.o
+
+**IT Support Technician** \| *June 2024 - July 2025*
+
+- Provided support for end users.
+- Developed automated solutions to streamline IT tasks.
+- Diagnosed and resolved network issues efficiently.
 
 ### Semantic Visions
 
-**Software Engineer (Python Backend / Data Processing)**  \|  *April 2022 - March 2023*
+**Software Engineer**  \|  *April 2022 - March 2023*
 
-- Rebuilt and optimized large-scale data processing pipelines in Python.
-- Designed scalable backend APIs and services.
-- Improved performance and modularity of production systems.
-- Mentored junior developer (code reviews, knowledge sharing).
-- Collaborated with product stakeholders on requirement translation and implementation.
+- Rebuilt the data processing pipeline to enhance efficiency and scalability.
+- Contributed to backend architecture and performance optimization.
+- Utilized front-end skills to fix issues in API testing, involving some React development.
+- Supervised a junior teammate, fostering their growth and development.
 
 ### ESC Aerospace s.r.o
 
 **Software Engineer** \| *March 2021 - February 2022*
 
-- Developed data validation and processing subroutines (Python, C++).
-- Designed automated testing and API solutions.
-- Participated in requirement analysis and technical coordination.
-- Delivered reliable software in mission-critical environments.
+- Provided analysis of communication standards and best practices provide by European Space Agency.
+- Developed subroutines for testing the integrity of space satellites.
+- Contributed to the development of BCI robotic arms for exoskeletons, focusing on data processing and visualization.
+- Managed APIs and automated testing processes.
+- Led requirement gathering and task delegation within the team.
 
 ### FSP a.s
 
 **Fullstack Engineer** \|  *September 2018 - December 2020*
 
-- Developed backend services and internal frameworks.
-- Delivered PoC solutions and long-term maintainable financial systems.
-- Contributed to backend security improvements.
-- Participated in architectural and design discussions.
+- Led the integration of an internal framework, adding new features and functionalities.
+- Created a proof-of-concept project to demonstrate potential improvements.
+- Assisted with the security aspects of backend models and APIs.
+- Developed secure life insurance systems designed for long-term use.
 
 ## tools
 
