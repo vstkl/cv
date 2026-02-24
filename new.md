@@ -52,66 +52,11 @@ overflow: hidden;
 # Vojta Stoklasa
 
 <div id="webaddress">
- </div>
-
-<div
-  id="cf-turnstile"
-  data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
-  data-size="flexible"
-  data-theme="light"
->
+  <a href="tel:+420704212826">+420 704 212 826</a>
+  <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a>
+  <a href="https://github.com/vstkl">github</a>
+  <a href="https://vstkl.xyz">blog</a>
 </div>
-<script>
-  window.onloadTurnstileCallback = function () {
-    turnstile.render("#cf-turnstile", {
-      sitekey: '0x4AAAAAABAzuyCIhJIoL6cz',  // Replace with your actual Turnstile site key
-      callback: function (token) {
-        console.log(`Challenge Success ${token}`);
-        const contactInfo = document.getElementById('webaddress');
-        contactInfo.style.display = 'block';
-        contactInfo.innerHTML = `
-            <a href="tel:+420704212826">+420 704 212 826</a> |
-            <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a> |
-            <a href="https://github.com/vstkl">github</a> |
-            <a href="https://vstkl.xyz">blog</a>
-        `;
-        const cft = document.getElementById('cf-turnstile');
-        cft.style.width= '130px';
-        cft.style["right-margin"] = '-10vw';
-        contactInfo.style.width = '55%';
-setTimeout(function(){
-  cft.style.transition = 'opacity 2s linear';
-  cft.style.opacity = 0;
-}, 5000);
-setTimeout(function(){
-  cft.style.display='none';
-}, 7000);
-      },
-    });
-  };
-    //    window.onload = function() {
-    //        if (typeof turnstile !== 'undefined') {
-    //            // Initialize Turnstile widget
-    //            turnstile.render(document.getElementById("cf-turnstile"), {
-    //                theme: "dark"             // Optional: Choose between "dark" or "light"
-    //            }).then(() => turnstile.remove("cf-turnstile"));
-    //
-    //            // Show contact info after successful verification
-    //            turnstile.on('verified', function() {
-    //                const contactInfo = document.getElementById('webaddress');
-    //                contactInfo.style.display = 'block';
-    //                contactInfo.innerHTML = `
-    //                    <a href="tel:+420704212826">+420 704 212 826</a> |
-    //                    <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a> |
-    //                    <a href="https://github.com/vstkl">github</a> |
-    //                    <a href="https://vstkl.xyz">blog</a>
-    //                `;
-    //            });
-    //        } else {
-    //            console.error('Turnstile script not loaded');
-    //        }
-    //    };
-</script>
 
 ## summary
 
