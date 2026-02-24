@@ -52,86 +52,119 @@ overflow: hidden;
 # Vojta Stoklasa
 
 <div id="webaddress">
-  <a href="tel:+420704212826">+420 704 212 826</a>
-  <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a>
-  <a href="https://github.com/vstkl">github</a>
-  <a href="https://vstkl.xyz">blog</a>
-</div>
+ </div>
 
+<div
+  id="cf-turnstile"
+  data-sitekey="0x4AAAAAABAzuyCIhJIoL6cz"
+  data-size="flexible"
+  data-theme="light"
+>
+</div>
+<script>
+  window.onloadTurnstileCallback = function () {
+    turnstile.render("#cf-turnstile", {
+      sitekey: '0x4AAAAAABAzuyCIhJIoL6cz',  // Replace with your actual Turnstile site key
+      callback: function (token) {
+        console.log(`Challenge Success ${token}`);
+        const contactInfo = document.getElementById('webaddress');
+        contactInfo.style.display = 'block';
+        contactInfo.innerHTML = `
+            <a href="tel:+420704212826">+420 704 212 826</a> |
+            <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a> |
+            <a href="https://github.com/vstkl">github</a> |
+            <a href="https://vstkl.xyz">blog</a>
+        `;
+        const cft = document.getElementById('cf-turnstile');
+        cft.style.width= '130px';
+        cft.style["right-margin"] = '-10vw';
+        contactInfo.style.width = '55%';
+setTimeout(function(){
+  cft.style.transition = 'opacity 2s linear';
+  cft.style.opacity = 0;
+}, 5000);
+setTimeout(function(){
+  cft.style.display='none';
+}, 7000);
+      },
+    });
+  };
+    //    window.onload = function() {
+    //        if (typeof turnstile !== 'undefined') {
+    //            // Initialize Turnstile widget
+    //            turnstile.render(document.getElementById("cf-turnstile"), {
+    //                theme: "dark"             // Optional: Choose between "dark" or "light"
+    //            }).then(() => turnstile.remove("cf-turnstile"));
+    //
+    //            // Show contact info after successful verification
+    //            turnstile.on('verified', function() {
+    //                const contactInfo = document.getElementById('webaddress');
+    //                contactInfo.style.display = 'block';
+    //                contactInfo.innerHTML = `
+    //                    <a href="tel:+420704212826">+420 704 212 826</a> |
+    //                    <a href="mailto:jobs@vstkl.xyz">jobs@vstkl.xyz</a> |
+    //                    <a href="https://github.com/vstkl">github</a> |
+    //                    <a href="https://vstkl.xyz">blog</a>
+    //                `;
+    //            });
+    //        } else {
+    //            console.error('Turnstile script not loaded');
+    //        }
+    //    };
+</script>
 ## summary
 
-Cybersecurity enthusiast, formed from previous experience in embedded and fullstack software engineer with a strong background in **C/C++, embedded systems, and industrial automation**. I combine experience in **object-oriented software design, scalable architectures, and real-time systems** with hands-on work in **network protocols, DevOps, and cybersecurity**. My career spans industrial automation, aerospace, and IT, giving me a unique ability to design robust, reusable software across multiple domains. I am passionate about building reliable embedded solutions, staying up to date with new trends in **Industry 4.0**, and collaborating in international teams.
+Senior Python Engineer with 6+ years of commercial software development experience, focused on building and operating production-grade backend and AI-driven systems.  
+
+I combine hands-on Python development (FastAPI, Flask, data pipelines, ML tooling) with technical leadership — mentoring engineers, improving SDLC processes, and driving delivery quality in Agile environments.  
+
+Experienced in translating business requirements into scalable technical solutions, ensuring production stability (incident handling, SLA awareness), and establishing engineering best practices (testing, CI/CD, documentation, code quality).  
+
+Strong interest in AI/ML applications, including LLM-based solutions, and scaling internal AI platforms in cloud environments (AWS/GCP).
 
 ## experience
 
 ### MSDC p.o
 
-**Cybersecurity Architect** \| *September 2025 - present*
+**Cybersecurity Architect / Technical Lead** \| *September 2025 - present*
 
-- Assured delivery of Security reports acquired from SOC for various customers and improved quality of the delivery process.
-- Delivered key points for strategy of SIEM implementation.
-- Developed new standards for cybersecurity auditing and advised in it's implementations.
-- Provided programming mentoring and consultantions regarding programming to teammates with different skillsets to improve the team's competency.
-
-### Freelance Work
-
-**Network Field Engineer** \| *December 2024 - July 2025*
-
-- Installed devices on customer premises in coordination with the remote network team.
-- Troubleshot and resolved network connectivity issues, optimizing performance.
-- Worked on Cisco devices (switches, routers, firewalls).
-
-### Plexplus s.r.o
-
-**IT Support Technician** \| *June 2024 - July 2025*
-
-- Provided support for end users.
-- Developed automated solutions to streamline IT tasks.
-- Diagnosed and resolved network issues efficiently.
+- Acting as technical lead across multiple initiatives, coordinating work distribution and mentoring team members.
+- Improving SDLC processes, documentation standards, and delivery transparency.
+- Contributing to SIEM and automation strategy, aligning technical implementation with business requirements.
+- Supporting incident management processes and improving SLA reliability.
+- Promoting best practices in version control, structured development workflows, testing, and internal tooling automation.
+- Communicating risks, priorities, and progress to stakeholders.
 
 ### Semantic Visions
 
-**Software Engineer**  \|  *April 2022 - March 2023*
+**Software Engineer (Python Backend / Data Processing)**  \|  *April 2022 - March 2023*
 
-- Rebuilt the data processing pipeline to enhance efficiency and scalability.
-- Contributed to backend architecture and performance optimization.
-- Utilized front-end skills to fix issues in API testing, involving some React development.
-- Supervised a junior teammate, fostering their growth and development.
+- Rebuilt and scaled large data processing pipelines in Python to improve performance and reliability.
+- Designed and implemented backend APIs and services for data-driven applications.
+- Collaborated closely with product stakeholders and analysts to transform business needs into technical solutions.
+- Mentored a junior engineer (code reviews, architectural guidance, knowledge sharing).
+- Improved code quality, modularity, and deployment reliability of production systems.
+- Worked within Agile/Scrum processes (planning, refinement, retrospectives).
 
 ### ESC Aerospace s.r.o
 
 **Software Engineer** \| *March 2021 - February 2022*
 
-- Provided analysis of communication standards and best practices provide by European Space Agency.
-- Developed subroutines for testing the integrity of space satellites.
-- Contributed to the development of BCI robotic arms for exoskeletons, focusing on data processing and visualization.
-- Managed APIs and automated testing processes.
-- Led requirement gathering and task delegation within the team.
+- Developed data validation and processing systems in Python and C++ for mission-critical environments.
+- Designed APIs and automated testing workflows.
+- Participated in requirement analysis and internal technical coordination.
+- Delivered highly reliable software with emphasis on quality assurance and traceability.
+- Contributed to structured development processes in compliance-oriented environments.
 
 ### FSP a.s
 
 **Fullstack Engineer** \|  *September 2018 - December 2020*
 
-- Led the integration of an internal framework, adding new features and functionalities.
-- Created a proof-of-concept project to demonstrate potential improvements.
-- Assisted with the security aspects of backend models and APIs.
-- Developed secure life insurance systems designed for long-term use.
-
-## tools
-
-**Backend & AI/ML:**  
-Python (6+ years), FastAPI, Flask, Pydantic, PyTest, TensorFlow, PyTorch, pandas, REST APIs, Ollama  
-
-**Cloud & DevOps:**  
-AWS, GCP, Docker, GitLab CI, Jenkins, nginx, Linux, bash  
-
-**Architecture & Engineering:**  
-Clean Architecture, API design, SDLC processes, code reviews, CI/CD, automated testing  
-
-**Other:**  
-SQL (Oracle, MSSQL, SQLite), C/C++, JavaScript, TypeScript, React, Git  
-
-## tools
+- Developed and maintained backend services for long-term financial systems.
+- Contributed to internal framework improvements and architectural decisions.
+- Delivered proof-of-concept solutions validating new technical approaches.
+- Assisted with API robustness, security improvements, and maintainability enhancements.
+- Collaborated in cross-functional teams within structured development processes.## tools
 
 JavaScript, TypeScript, npm, webpack, yarn, ReactJS, babel, Python, Flask, PyTest, TensorFlow, PyTorch, panda3d, pandas, SQL Oracle, MSSQL, sqlite, PL/SQL, C/C++, FreeRTOS, C#, .NET, Mono, VisualBasic, Entity, NHibernate, BurpSuite, nmap, PowerShell, Wireshark, amass, tmux, nginx, make/cmake, legba, Nikto, ZAProxy, Metsaploit, SMB, SOAP, REST, Ollama, XML, Zabbix, QEMU, KVM, Hyper-V, ProxmoxVE, Docker, Vagrant, Virtualbox, FreeRTOS, vhdl, fpga, assembly, nasm, gdb, radare2, UiPath, BluePrism, git, AWS, GCP, Jenkins, bash, esp32, Jekyll, Markdown
 
