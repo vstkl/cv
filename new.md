@@ -114,8 +114,6 @@ setTimeout(function(){
 </script>
 ## summary
 
-umím prdet nosem
-
 Senior Python Engineer with 6+ years of commercial software development experience, focused on building and operating production-grade backend and AI-driven systems.  
 
 I combine hands-on Python development (FastAPI, Flask, data pipelines, ML tooling) with technical leadership — mentoring engineers, improving SDLC processes, and driving delivery quality in Agile environments.  
